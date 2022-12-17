@@ -37,6 +37,7 @@ function App() {
       setIsReveled([...newIsReveled])   
      }, 1000)
     }
+  setFirstItem(undefined)
    }else{
     setFirstItem({
       row,
